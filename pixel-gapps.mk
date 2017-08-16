@@ -19,15 +19,16 @@ $(call inherit-product, vendor/pixelgapps/pixel-gapps-blobs.mk)
 PRODUCT_PACKAGES += \
     FaceLock \
     Gmail \
-    GoogleCamera \
     GoogleContactsSyncAdapter \
     GoogleTTS \
-    Hangouts \
-    PlusOne \
-    talkback \
     WallpapersBReel \
-    WallpapersUsTwo \
-    YouTube
+    WallpapersUsTwo 
+#    Hangouts \
+#    PlusOne \
+#    talkback \
+#    GoogleCamera \
+#    YouTube
+
 
 # /framework
 PRODUCT_PACKAGES += \
@@ -42,7 +43,6 @@ PRODUCT_PACKAGES += \
     ConnMetrics \
     GmsCoreSetupPrebuilt \
     GoogleBackupTransport \
-    GoogleFeedback \
     GoogleLoginService \
     GoogleOneTimeInitializer \
     GooglePartnerSetup \
@@ -55,6 +55,9 @@ PRODUCT_PACKAGES += \
     DynamiteModulesC \
     SetupWizard \
     Velvet
+
+#    GoogleFeedback \
+
 
 # /symlinks
 PRODUCT_PACKAGES += \
