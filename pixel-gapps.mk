@@ -18,11 +18,13 @@ $(call inherit-product, vendor/pixelgapps/pixel-gapps-blobs.mk)
 # /app
 PRODUCT_PACKAGES += \
     FaceLock \
-    Gmail \
     GoogleContactsSyncAdapter \
+    GoogleCalendarSyncAdapter \
     GoogleTTS \
     WallpapersBReel \
     WallpapersUsTwo 
+
+#    Gmail \
 #    Hangouts \
 #    PlusOne \
 #    talkback \
